@@ -1,18 +1,8 @@
 {
-    "name": "ts-api",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT",
-    "scripts": {
-        "start:ts": "tsc -w",
-        "start:dev": "nodemon ./build/index.js",
-        "build": "tsc",
-        "dev": "concurrently npm:start:*"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.16"
-    },
-    "dependencies": {
-        "concurrently": "^7.2.1"
-    }
+  "name": "ts-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nairo-mudumane/ts-api-example.git",
+  "author": "nairo-mudumane <nairomudumane@outlook.com>",
+  "license": "MIT"
 }
